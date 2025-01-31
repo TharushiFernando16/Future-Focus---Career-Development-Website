@@ -1,0 +1,82 @@
+/* General styling for form */
+form {
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+
+/* Styling for text input fields */
+.form-control {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(212, 119, 167, 0.25);
+}
+
+/* Styling for file input */
+.form-control-file {
+    display: block;
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.form-control-file input[type="file"] {
+    width: 100%;
+}
+
+/* Submit button styling */
+.btn {
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6f264b;
+    border-color: #42022b;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #b30074;
+    border-color: #85005b;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 157, 0.5);
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+

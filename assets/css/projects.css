@@ -1,0 +1,288 @@
+.navbar-brand h2 {
+  font-size: 40px; /* Adjust as needed */
+  font-weight: bold; /* Adjust as needed */
+  color:rgb(116, 13, 78); /* Adjust as needed */
+  text-decoration: double; /* Remove underline */
+  margin: 0; /* Remove any default margins */
+  padding: 10px 20px; /* Adjust padding as needed */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+  .dropdown-menu li a{
+    text-decoration:none;
+     /* Adjust as needed */
+    font-size:14px;
+  }
+  
+  .dropdown-menu li a:hover{
+  color: black;
+  }
+  
+  
+/* Footer Styles */
+
+/* Footer container */
+.container-fluid.bg-dark.bg-footer {
+  padding-top: 60px; /* Adjust as needed */
+  background-color: whitesmoke;
+}
+
+/* Footer text color */
+.container-fluid.bg-dark.bg-footer .text-light {
+  color: black;
+}
+
+/* Footer links */
+.container-fluid.bg-dark.bg-footer a {
+  color: black;
+}
+
+.container-fluid.bg-dark.bg-footer a:hover {
+  color: black;
+}
+
+/* Footer primary headings */
+.container-fluid.bg-dark.bg-footer .text-primary {
+  color: #9b1b59; /* Adjust as needed */
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Footer secondary headings */
+.container-fluid.bg-dark.bg-footer .text-secondary {
+  color: black; /* Adjust as needed */
+}
+
+/* Footer background color */
+.container-fluid.bg-primary.text-dark {
+  background-color: rgb(224, 93, 148); /* Adjust as needed */
+}
+
+/* Footer copyright text */
+.container-fluid.bg-primary.text-dark p {
+  color: #343a40; /* Adjust as needed */
+}
+
+/* Paragraph Styles */
+.footer-paragraph {
+  color: #ccc; /* Adjust as needed */
+  font-size: 14px; /* Adjust as needed */
+}
+
+/* Additional Styles for specific paragraphs */
+.footer-paragraph:nth-child(2) {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.footer-paragraph:nth-child(3) {
+  font-weight: bold; /* Adjust as needed */
+}
+
+.footer-paragraph:nth-child(4) {
+  color: #ff0000; /* Adjust as needed */
+  font-style: italic; /* Adjust as needed */
+}
+
+.mb-4, .mb-2, .mb-0 {
+  color:  black; /* Set paragraph text color to white */
+  font-size: 14px; /* Set paragraph font size */
+  margin-top: 15px; /* Add some top margin */
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5px;
+}
+
+.g-5,.gy-5 {
+  --bs-gutter-y: 3rem
+}
+
+.justify-content-start {
+  justify-content: flex-start !important
+}
+
+.flex-column {
+  flex-direction: column !important
+}
+
+/* End Paragraph Styles */
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%
+}
+
+.input-group>.form-control,.input-group>.form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0
+}
+
+.input-group>.form-control:focus,.input-group>.form-select:focus {
+  z-index: 3
+}
+
+.input-group .btn {
+  position: relative;
+  background: #b93e6f;
+	color: #fff;
+  font-weight: bold;
+}
+
+.input-group .btn:hover{
+ 
+  background: #881543;
+  color: #FFFFFF;
+ }
+
+
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #54595F;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 8px
+}
+
+.input-group-lg>.form-control,.input-group-lg>.form-select,.input-group-lg>.input-group-text,.input-group-lg>.btn {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem
+}
+
+.input-group-sm>.form-control,.input-group-sm>.form-select,.input-group-sm>.input-group-text,.input-group-sm>.btn {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: .2rem
+}
+
+.input-group-lg>.form-select,.input-group-sm>.form-select {
+  padding-right: 3rem
+}
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.input-group.has-validation>:nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu),.input-group.has-validation>.dropdown-toggle:nth-last-child(n+4) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0
+}
+
+.me-2 {
+  margin-right: .5rem !important
+}
+
+.btn-lg-square {
+  width: 46px;
+  height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.d-flex .btn {
+  font-weight: 700;
+  transition: .5s;
+}
+
+.container-fluid bg-primary text-dark .mb-md-0{
+  color:  black; /* Set paragraph text color to white */
+  font-size: 140px; /* Set paragraph font size */
+  
+}
+
+/* Style for copyright section */
+.mb-md-0 { 
+  color: black; /* Dark text color */
+  padding: 20px 100; /* Vertical padding */
+}
+ .social .sicons{ /*siconssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+  visibility: visible;
+  color: #02050b;
+}
+
+
+.sicons{
+  
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+   .text-right{
+    color: #9c485b; /* Dark text color for links */
+  font-weight: bold;
+  font-size:15px;
+}
+   .simplenav{
+    color:#7c3a48 ; /* Dark text color for links */
+  font-weight: bold;
+  font-size:15px;
+   }
+
+   .container-fluid.bg-dark.bg-footer a {
+    color: black;
+}
+/* End Footer Styles */
+
+
+  .col-md-12 .rcontent{
+    font-size: 20px;
+  }
+
+  .project p{
+    font-size: 18px;
+    color:rgb(128, 0, 75);
+    font-weight: bold;
+  }
+
+  .notification-bar {
+    background-color: white;
+    color: #5e0826;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    top: 17px;
+    right: 65px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.notification-bar i {
+    margin-right: 12px;
+    color: rgb(70, 9, 34);
+    
+}

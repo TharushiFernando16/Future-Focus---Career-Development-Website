@@ -1,0 +1,454 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .image{
+    flex:1 1 40rem;
+}
+
+.about .image img{
+    height:65vh;
+    width:100%;
+}
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h3{
+    font-size: 3.5rem;
+    color:#666;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.course .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course .box-container .box{
+    width:35rem;
+    border:.1rem solid rgba(0,0,0,.3);
+    position: relative;
+    margin:1.5rem;  
+}
+
+.course .box-container .box img{
+    height:20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.course .box-container .box .content{
+    padding:1rem;
+}
+
+.course .box-container .box .content .stars i{
+    color:#f39c12;
+    font-size: 1.7rem;
+    padding:1rem .1rem;
+}
+
+.course .box-container .box .content .title{
+    color:#444;
+    font-size: 2.1rem;
+}
+
+.course .box-container .box .content .title:hover{
+    text-decoration: underline;
+}
+
+.course .box-container .box .content p{
+    padding:1rem 0;
+    color:#666;
+    font-size: 1.5rem;
+}
+
+.course .box-container .box .content .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .5rem;
+    border-top: .1rem solid rgba(0,0,0,.3);
+}
+
+.course .box-container .box .content .info h3{
+    font-size: 1.5rem;
+    padding:1rem;
+    color:#666;
+}
+
+.course .box-container .box .content .info h3 i{
+    color:#f39c12;
+}
+
+.course .box-container .box .price{
+    position: absolute;
+    top:16rem; right:1rem;
+    height:8rem;
+    width:8rem;
+    line-height: 8rem;
+    text-align: center;
+    border-radius: 50%;
+    background:var(--gradient);
+    color:#fff;
+    font-size: 3rem;
+}
+/* Footer container */
+.container-fluid.bg-dark.bg-footer {
+    padding-top: 60px; /* Adjust as needed */
+    background-color: whitesmoke;
+    }
+    
+    /* Footer text color */
+    .container-fluid.bg-dark.bg-footer .text-light {
+    color: black;
+    }
+    
+    /* Footer links */
+    .container-fluid.bg-dark.bg-footer a {
+    color: black;
+    }
+    
+    .container-fluid.bg-dark.bg-footer a:hover {
+    color: black;
+    }
+    
+    /* Footer primary headings */
+    .container-fluid.bg-dark.bg-footer .text-primary {
+    color: #9b1b59; /* Adjust as needed */
+    font-weight: bold;
+    font-size: 16px;
+    }
+    
+    /* Footer secondary headings */
+    .container-fluid.bg-dark.bg-footer .text-secondary {
+    color: black; /* Adjust as needed */
+    }
+    
+    /* Footer background color */
+    .container-fluid.bg-primary.text-dark {
+    background-color: rgb(205, 191, 203); /* Adjust as needed */
+    }
+    
+    /* Footer copyright text */
+    .container-fluid.bg-primary.text-dark p {
+    color: #343a40; /* Adjust as needed */
+    }
+    
+    /* Paragraph Styles */
+    .footer-paragraph {
+    color: #ccc; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+    }
+    
+    /* Additional Styles for specific paragraphs */
+    .footer-paragraph:nth-child(2) {
+    margin-top: 20px; /* Adjust as needed */
+    }
+    
+    .footer-paragraph:nth-child(3) {
+    font-weight: bold; /* Adjust as needed */
+    }
+    
+    .footer-paragraph:nth-child(4) {
+    color: #ff0000; /* Adjust as needed */
+    font-style: italic; /* Adjust as needed */
+    }
+    
+    .mb-4, .mb-2, .mb-0 {
+    color:  black; /* Set paragraph text color to white */
+    font-size: 14px; /* Set paragraph font size */
+    margin-top: 15px; /* Add some top margin */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5px;
+    }
+    
+    .g-5,.gy-5 {
+    --bs-gutter-y: 3rem
+    }
+    
+    .justify-content-start {
+    justify-content: flex-start !important
+    }
+    
+    .flex-column {
+    flex-direction: column !important
+    }
+    
+    /* End Paragraph Styles */
+    
+    .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%
+    }
+    
+    .input-group>.form-control,.input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0
+    }
+    
+    .input-group>.form-control:focus,.input-group>.form-select:focus {
+    z-index: 3
+    }
+    
+    .input-group .btn {
+    position: relative;
+    z-index: 2;
+    background: #b93e6f;
+    color: #fff;
+    font-weight: normal;
+    }
+    
+    .input-group .btn:hover{
+    box-shadow:0 5px 10px rgba(71,71,71,.4);
+    background: #9b1b59;
+    }
+    
+    .input-group .btn:focus {
+    z-index: 3
+    }
+    
+    .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #54595F;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 8px
+    }
+    
+    .input-group-lg>.form-control,.input-group-lg>.form-select,.input-group-lg>.input-group-text,.input-group-lg>.btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem
+    }
+    
+    .input-group-sm>.form-control,.input-group-sm>.form-select,.input-group-sm>.input-group-text,.input-group-sm>.btn {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    border-radius: .2rem
+    }
+    
+    .input-group-lg>.form-select,.input-group-sm>.form-select {
+    padding-right: 3rem
+    }
+    
+    .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu),.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+    }
+    
+    .input-group.has-validation>:nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu),.input-group.has-validation>.dropdown-toggle:nth-last-child(n+4) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+    }
+    
+    .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+    }
+    
+    .me-2 {
+    margin-right: .5rem !important
+    }
+    
+    .btn-lg-square {
+    width: 46px;
+    height: 46px;
+    }
+    
+    .btn-square,
+    .btn-sm-square,
+    .btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    }
+    
+    .d-flex .btn {
+    font-weight: 700;
+    transition: .5s;
+    }
+    
+    .container-fluid bg-primary text-dark .mb-md-0{
+    color:  black; /* Set paragraph text color to white */
+    font-size: 140px; /* Set paragraph font size */
+    
+    }
+    
+    /* Style for copyright section */
+    .mb-md-0 { 
+    color: black; /* Dark text color */
+    padding: 20px 100; /* Vertical padding */
+    }
+    
+    .sicons{
+    
+      display: inline-block;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      color: red;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .social {
+    margin: 20px 0;
+    }
+    .social a {
+    font-size: 32px;
+    margin: 0 10px;
+    color: #8c8c8c;
+    }
+    .social a:hover {
+    color: #3d84e6;
+    }
+    
+     .text-right{
+      color: #9b1b59; /* Dark text color for links */
+    font-weight: bold;
+    font-size:15px;
+    }
+     .simplenav{
+      color: #9b1b59; /* Dark text color for links */
+    font-weight: bold;
+    font-size:15px;
+     }
+    /* End Footer Styles */
+    .dropbtn {
+        background-color: #3e373a;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+       
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #5d4e54;
+      }
+      
+      #myInput {
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 14px 20px 12px 45px; /* Adjust padding to accommodate icon */
+        border: none;
+        border-bottom: 1px solid #ddd;
+        width: calc(100% - 45px); /* Adjust width to fit the container */
+      }
+      
+      #myInput:focus {outline: 3px solid #ddd;}
+      
+      .dropdown {
+        position: relative;
+        
+        float: right;
+        padding-right: 20px;
+      }
+      
+      .dropdown-content {
+        display: none;
+       
+        right: 0;
+        background-color: rgba(246, 246, 246, 0.9);
+        min-width: 230px;
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: rgba(119, 102, 102, 0.786);;}
+      .dropdown-content a.selected {
+        background-color: #3e8e41;
+        color: white;
+      }
+      .show {display: block;}
+      
+      .search-container {
+        display: flex;
+        align-items: center;
+      }
+      
+      .search-icon {
+        margin-left: -40px; /* Adjust position of the icon */
+        cursor: pointer;
+      }
+      .not-found {
+        display: none;
+        color: red;
+        padding: 12px 16px;
+      }
+      .col-md-12 .rcontent {
+        font-size: 20px;
+    }
+    .navbar-brand h2 {
+        font-size: 40px; /* Adjust as needed */
+        font-weight: bold; /* Adjust as needed */
+        color:rgb(116, 13, 78); /* Adjust as needed */
+        text-decoration: double; /* Remove underline */
+        margin: 0; /* Remove any default margins */
+        padding: 10px 20px; /* Adjust padding as needed */
+        transition: color 0.3s; /* Smooth color transition on hover */
+      }
+      .container-fluid.bg-dark.bg-footer .text-primary {
+        color: #9b1b59;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+
+      .notification-bar {
+        background-color: white;
+        color: #5e0826;
+        padding: 10px;
+        text-align: left;
+        position: fixed;
+        top: 17px;
+        right: 65px;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    .notification-bar i {
+        margin-right: 12px;
+        color: rgb(70, 9, 34);
+        
+    }

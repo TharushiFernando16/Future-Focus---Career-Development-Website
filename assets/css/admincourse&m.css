@@ -1,0 +1,290 @@
+.magazines-box {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    
+}
+
+.magazines-head .projects-title {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 1.5em;
+}
+
+
+.magazines-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.magazines-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.magazines-input[type="text"],
+.magazines-input[type="number"],
+.magazines-input[type="file"],
+.magazines-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.magazines-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.magazines-submit {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #682848;
+    color: white;
+    font-weight:bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.magazines-submit:hover {
+    background-color: #521835;
+}
+
+
+#magazines-management {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8e8ec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#magazines-management h2 {
+    margin-bottom: 20px;
+    color: rgb(117, 6, 56);
+    font-weight: bold;
+    font-size:16px;
+}
+
+#magazines-management p {
+    margin-bottom: 20px;
+    color: #454343;
+}
+
+#magazines-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#magazines-management table th,
+#magazines-management table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #4b0720;
+}
+
+#magazines-management table th {
+    background-color: rgb(142, 112, 124);
+    color: #333;
+}
+
+#magazines-management table td {
+    background-color: #d5c5cd;
+    color: #333;
+}
+
+#magazines-management table tr:nth-child(even) {
+    background-color: #f4c0d9;
+}
+
+#magazines-management table tr:hover {
+    background-color: #eba6c2;
+}
+
+#magazines-management form {
+    margin: 0;
+    display: inline-block;
+}
+
+#magazines-management select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#magazines-management input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #6e4a5a;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#magazines-management input[type="submit"]:hover {
+    background-color: #481b34;
+}
+
+
+.courses-box {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    
+}
+
+.courses-head .projects-title {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 1.5em;
+}
+
+
+.courses-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.courses-input[type="text"],
+.courses-input[type="number"],
+.courses-input[type="file"],
+.courses-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Styles for Certificate label */
+.courses-label-certificate {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styles for Certificate checkbox */
+.courses-checkbox {
+    margin-top: -13px;
+    margin-left: -250px;/* Adjust as needed for spacing */
+}
+
+.courses-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.courses-submit {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #682848;
+    color: white;
+    font-weight:bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.courses-submit:hover {
+    background-color: #521835;
+}
+
+
+#courses-management {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8e8ec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#courses-management h2 {
+    margin-bottom: 20px;
+    color: rgb(117, 6, 56);
+    font-weight: bold;
+    font-size:16px;
+}
+
+#courses-management p {
+    margin-bottom: 20px;
+    color: #454343;
+}
+
+#courses-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#courses-management table th,
+#courses-management table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #4b0720;
+}
+
+#courses-management table th {
+    background-color: rgb(142, 112, 124);
+    color: #333;
+}
+
+#courses-management table td {
+    background-color: #d5c5cd;
+    color: #333;
+}
+
+#courses-management table tr:nth-child(even) {
+    background-color: #f4c0d9;
+}
+
+#courses-management table tr:hover {
+    background-color: #eba6c2;
+}
+
+#courses-management form {
+    margin: 0;
+    display: inline-block;
+}
+
+#courses-management select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#courses-management input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #6e4a5a;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#courses-management input[type="submit"]:hover {
+    background-color: #481b34;
+}
